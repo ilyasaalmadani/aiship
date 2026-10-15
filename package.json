@@ -1,0 +1,32 @@
+{
+  "name": "aiship",
+  "version": "0.1.0",
+  "description": "Local readiness check for AI-generated code before you ship. Zero-install.",
+  "bin": {
+    "aiship": "./bin/aiship.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/aiship.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "security",
+    "ship",
+    "readiness",
+    "cli",
+    "secrets",
+    "vibe-coding"
+  ],
+  "author": "Ilyas Akbar Almadani",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
