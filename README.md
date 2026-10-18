@@ -55,7 +55,7 @@ Verdict: NEEDS ATTENTION
 
 This tool is **not** a replacement for SHIPSAFE.
 
-SHIPSAFE is the full local Mac scanner (148 checks covering secrets, debug config, unprotected admin routes, dependencies, destructive migrations, and more). It is a paid app on the Mac App Store.
+[SHIPSAFE](https://github.com/ilyasaalmadani/shipsafe-macos) is the full local Mac scanner (148 checks covering secrets, debug config, unprotected admin routes, dependencies, destructive migrations, and more). Version 1.1.1 adds an iOS Pack for Swift and Xcode projects: ATS exceptions, credentials in `print`/`NSLog`, `get-task-allow` and committed signing keys. It is a one-time purchase on the [Mac App Store](https://apps.apple.com/app/id6808833747?mt=12).
 
 **aiship** is the free, open-source, zero-install CLI that covers a focused subset of the most common issues in AI-generated code. It exists so more developers can catch the obvious problems quickly. The complete, polished experience stays in SHIPSAFE.
 
